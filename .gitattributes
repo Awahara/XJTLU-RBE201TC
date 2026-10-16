@@ -1,0 +1,16 @@
+# Normalise all text files to LF: the code in this repo targets Linux (RDK X5).
+* text=auto eol=lf
+
+# Explicit binary types
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.pdf  binary
+*.zip  binary
+*.gz   binary
+*.exe  binary
+*.so   binary
+
+# GitHub language detection
+*.ipynb linguist-detectable=false

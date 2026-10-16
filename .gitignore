@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Compiled C programs
+dht11_test
+dht11_rdk_x5_gpio401_server
+
+# Data recorded by line_follower.py
+temperature_points*.csv
+
+# Local backups
+*.orig
+*.bak
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
